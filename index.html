@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--sidebar-start-->
+    <div class="sidebar">
+
+        <div class="burger">
+            <div class="burger-icon"></div>
+        </div>
+        
+
+        <i class="fab fa-twitter"></i>
+
+        <div class="sidebar-menuIcons active">
+            <span class="material-symbols-outlined menu-icons">home</span>
+            <h2>Home</h2>
+        </div>
+        <a href="explore.html">
+            <div class="sidebar-menuIcons">
+                <span class="material-symbols-outlined menu-icons" src="explore.html">tag</span>
+                <h2>Explore</h2>
+            </div>
+        </a>
+        <div class="sidebar-menuIcons">
+            <span class="material-symbols-outlined menu-icons">notifications</span>
+            <h2>Notifications</h2>
+        </div>
+        <div class="sidebar-menuIcons">
+            <span class="material-symbols-outlined menu-icons">mail</span>
+            <h2>Messages</h2>
+        </div>
+        <div class="sidebar-menuIcons">
+            <span class="material-symbols-outlined menu-icons">bookmark</span>
+            <h2>Bookmarks</h2>
+        </div>
+        <div class="sidebar-menuIcons">
+            <span class="material-symbols-outlined menu-icons">list_alt</span>
+            <h2>Lists</h2>
+        </div>
+        <div class="sidebar-menuIcons">
+            <span class="material-symbols-outlined menu-icons">person</span>
+            <h2>Profile</h2>
+        </div>
+        <div class="sidebar-menuIcons">
+            <span class="material-symbols-outlined menu-icons">more_horiz</span>
+            <h2>More</h2>
+        </div>
+        <!-- sidebar-menu-ends -->
+
+        <button class="menuIcons sidebar-tweet">Tweet</button>
+
+        <div class="profile">
+            <img src="https://pbs.twimg.com/profile_images/1468492069614223362/p7-jslx7_400x400.jpg" alt="">
+            <span class="user">
+                <h3>UserName </h3><span class="userId">
+                    <h4>@username</h4>
+                </span>
+            </span>
+            <span class="profile-btn">...</span>
+        </div>
+    </div>
+    <!--sidebar-end-->
+
+    <!-- feed-starts -->
+    <div class="section-2">
+        <!-- header-starts -->
+        <div class="feed-header">
+            <h2>Home</h2>
+            <span class="material-symbols-outlined top-tweets">auto_awesome</span>
+        </div>
+        <!-- header-endss -->
+
+        <!-- tweetbox-starts -->
+        <div class="tweetbox">
+            <form>
+                <div class="tweet-input-area">
+                    <img src="https://pbs.twimg.com/profile_images/1468492069614223362/p7-jslx7_400x400.jpg">
+                    <input type="text" name="" id="" placeholder="What's happening?">
+
+                </div>
+
+                <div class="tweetbox-options">
+                    <div class="tweet-options">
+                        <span class="material-symbols-outlined tweetOption-icons">imagesmode</span>
+                    </div>
+                    <div class="tweet-options">
+                        <span class="material-symbols-outlined tweetOption-icons">gif_box</span>
+                    </div>
+
+                    <div class="tweet-options">
+                        <span class="material-symbols-outlined tweetOption-icons">bar_chart</span>
+                    </div>
+
+                    <div class="tweet-options">
+                        <span class="material-symbols-outlined tweetOption-icons">sentiment_satisfied</span>
+                    </div>
+
+                    <div class="tweet-options" aria-label="options">
+                        <span class="material-symbols-outlined tweetOption-icons" label="schedule"
+                            role="button">today</span>
+                    </div>
+
+                    <div class="tweet-options">
+                        <span class="material-symbols-outlined tweetOption-icons">location_on</span>
+                    </div>
+                    <button class="tweet-btn" onclick="func()">Tweet</button>
+                </div>
+
+            </form>
+        </div>
+        <!-- tweetbox-ends -->
+
+        <!--post1-starts -->
+        <!--..........start post here today-->
+        <div class="post">
+            <div class="post-avatar">
+                <img src="https://media.herworld.com/public/2018/10/story/25399596_l.jpg?compress=true&quality=80&w=732&dpr=2.6" alt="">
+            </div>
+
+            <div class="post-body">
+                <div class="post-header">
+                    <div class="postHeader-username">
+                        <h3>Somerandomgirl
+                            <span class="verified-icon">
+                                <span class="material-symbols-outlined post-badge">Verified</span>@somerandomgirl57
+                            </span>
+                        </h3>
+                    </div>
+
+                    <div class="post-description">
+                        How's my new profile picture....?
+                    </div>
+                </div>
+                <img src="https://media.herworld.com/public/2018/10/story/25399596_l.jpg?compress=true&quality=80&w=732&dpr=2.6" alt="">
+
+                <div class="post-footer">
+                    <span class="material-symbols-outlined footer-icons">Chat_Bubble</span>
+                    <span class="material-symbols-outlined footer-icons">repeat</span>
+                    <span class="material-symbols-outlined footer-icons-fav">favorite</span>
+                    <span class="material-symbols-outlined footer-icons">upload</span>
+                </div>
+            </div>
+        </div>
+        <!--post1-ends -->
+
+        <!--post2-starts -->
+        <div class="post">
+            <div class="post-avatar">
+                <img src="https://pbs.twimg.com/profile_images/1038640913462042624/X5NnOGZZ_400x400.jpg" alt="">
+            </div>
+
+            <div class="post-body">
+                <div class="post-header">
+                    <div class="postHeader-username">
+                        <h3>RvcjOfficial
+                            <span class="verified-icon">
+                                <span class="material-symbols-outlined post-badge">Verified</span>@RvcjOfficial
+                            </span>
+                        </h3>
+                    </div>
+
+                    <div class="post-description">
+                        History created!!!
+                    </div>
+                </div>
+                <img src="https://pbs.twimg.com/media/FZjboUdUUAQX-GA?format=jpg&name=small" alt="">
+
+                <div class="post-footer">
+                    <span onclick="paintBlue()" class="material-symbols-outlined footer-icons">Chat_Bubble</span>
+                    <span class="material-symbols-outlined footer-icons">repeat</span>
+                    <span class="material-symbols-outlined footer-icons-fav">favorite</span>
+                    <span class="material-symbols-outlined footer-icons">upload</span>
+                </div>
+            </div>
+        </div>
+        <!--post2-ends -->
+
+        <!--post3-starts -->
+        <div class="post">
+            <div class="post-avatar">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/a4/9b/77/legacy-hotel-at-img-academy.jpg?w=1400&h=-1&s=1" alt="">
+            </div>
+
+            <div class="post-body">
+                <div class="post-header">
+                    <div class="postHeader-username">
+                        <h3>You
+                            <span class="verified-icon">
+                                <span class="material-symbols-outlined post-badge">Verified</span>@dea
+                            </span>
+                        </h3>
+                    </div>
+
+                    <div class="post-description">
+                        History created!!!
+                    </div>
+                </div>
+                <img src="https://pbs.twimg.com/media/FZjtefJacAE2EXW?format=jpg&name=small" alt="">
+
+                <div class="post-footer">
+                    <span class="material-symbols-outlined footer-icons">Chat_Bubble</span>
+                    <span class="material-symbols-outlined footer-icons">repeat</span>
+                    <span class="material-symbols-outlined footer-icons-fav">favorite</span>
+                    <span class="material-symbols-outlined footer-icons">upload</span>
+                </div>
+            </div>
+        </div>
+        <!--post3-ends -->
+
+    </div>
+    <!-- feed-ends -->
+
+    <!-- widgets-starts -->
+    <div class="widgets">
+
+        <div class="search-bar">
+            <span class="material-symbols-outlined search-icon">search</span>
+            <input type="search" placeholder="Search Twitter" id="">
+        </div>
+
+        <div class="widgets-container">
+            <h3>What's happening?</h3>
+            <a class="twitter-timeline" data-width="350" data-height="200"
+                href="https://twitter.com/TwitterDev/lists/national-parks?ref_src=twsrc%5Etfw">A Twitter List by TwitterDev</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">Sunsets don&#39;t get much better than this one over <a
+                        href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>. <a
+                        href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw">#nature</a> <a
+                        href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw">#sunset</a> <a
+                        href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a></p>&mdash; US Department of the
+                Interior (@Interior) <a
+                    href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw">May 5, 2014</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
+
+    </div>
+    <!-- widgets-ends -->
+
+    <script src="main.js"></script>
+</body>
+
+</html>
+
+<!-- Project-1 -->
