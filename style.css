@@ -123,7 +123,9 @@ body{
     padding: 0 1px;
 }
 .sidebar{
-    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     min-width: 250px;
     border-right: 1px solid var(--twitter-background);
     padding-right: 30px;
@@ -407,3 +409,4 @@ body{
 
 
 /* widgets-ends */
+
