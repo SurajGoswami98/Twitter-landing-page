@@ -22,8 +22,10 @@ a{
     padding-left: 12px;
 }
 .sidebar-menuItems a {
-    underline:none;
     color:black;
+    text-decoration:none;
+    display:flex;
+    align-items:center;
 }
 .sidebar-menuItems .menu-icons,
 .fa-twitter{
@@ -413,6 +415,7 @@ body{
 
 
 /* widgets-ends */
+
 
 
 
